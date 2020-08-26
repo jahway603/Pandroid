@@ -2,8 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent" >
 
     <TextView
         android:id="@+id/settings_text"
@@ -12,6 +11,38 @@
         android:layout_centerInParent="true"
         android:textSize="24sp"
         android:textColor="?attr/colorAccent"
-        android:text="Sign out"
-        />
+        android:text="@string/sign_out" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common.list.itemHeight"
+        android:layout_below="@id/settings_text" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:textColor="?attr/colorAccent"
+        android:text="@string/app_name"
+        android:layout_below="@id/space" />
+
+    <TextView
+        android:id="@+id/version_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:textColor="?attr/colorAccent"
+        android:text="1.0.2"
+        android:layout_below="@id/app_name" />
+
+    <Space
+        android:id="@+id/space_two"
+        android:layout_width="match_parent"
+        android:layout_height="24sp"
+        android:layout_below="@id/version_number" />
+
 </RelativeLayout>

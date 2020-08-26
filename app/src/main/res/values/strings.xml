@@ -22,4 +22,6 @@
 
     <string name="station_list.footer.add">Add station</string>
     <string name="station_list.footer.end_summary_formatter">%d stations in total</string>
+
+    <string name="sign_out">Sign out from Pandora</string>
 </resources>
