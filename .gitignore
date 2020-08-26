@@ -41,6 +41,7 @@ captures/
 .idea/dictionaries
 .idea/libraries
 .idea/sonarlint
+.idea/
 
 # Keystore files
 *.jks
